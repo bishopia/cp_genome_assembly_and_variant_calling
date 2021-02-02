@@ -10,7 +10,7 @@ In this pipeline, i applied getOrganelle, Bandage and CHLOROBOX GeSeq to assembl
 Overall, we found approximately 50 variant sites among the 40 isolates. Given that we're working with plastid genomes, all variants are assumed to be in full LD. Initial viewing suggests that there are many variants that span both populations or are unique to either population.
 
 ![plot](manual_combination_vcf_gb_fasta.png)
-#### <b>Figure 1.</b> Test
+<b>Figure 1.</b> IGV browser screenshot of all 40 haplotypes and annotated coding sequence. Each grey/lightblue/darkblue marker indicates a SNP locus (grey=homozygous for ref allele, lightblue=homozygous for alt allele, and darkblue=heterozygous). Samples left of the black bars are from Narragansett Bay, samples left of the red bar are from South Africa.
 
 ## conclusions
 Initial conclusions are that there is plenty of genetic diversity upon which deconvolution analyses can be based, even among single cell isolates collected from the same water sample. If lcWGS genotyping only gave us sufficient coverage at high-copy number regions like rRNA, plastid and mitochondiral genomes, these results suggest that potentially hundreds of high depth segregating markers could be available for use (they are segregating in this case because we assume no mutation during the experiment). It is even possible that knowing <i>a priori</i> which variants belong to which strain (by sequencing them separately at higher coverage) is not strictly necessary, if our primary goal is to identify when one of the two genotypes goes extinct in each co-culture. If we have monocultures in the evolution plate as well, it is even more likely that we do not need any separate founder strain sequencing at higher coverage.
