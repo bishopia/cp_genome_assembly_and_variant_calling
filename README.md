@@ -9,7 +9,8 @@ in this pipeline, i used getOrganelle, bandance and CHLOROBOX GeSeq to assembly,
 ## results
 Overall, we found approximately 50 variant sites among the 40 isolates. Given that we're working with plastid genomes, all variants are assumed to be in full LD. Initial viewing suggests that there are many variants that span both populations or are unique to either population.
 
+![plot](manual_combination_vcf_gb_fasta.png)
+
 ## conclusions
 Initial conclusions are that there is plenty of genetic diversity upon which deconvolution analyses can be based, even among single cell isolates collected from the same sample. If lcWGS genotypes only gave us reasonable coverage at high-copy number regions like rRNA, plastid and mito, if this plastid is any indication, potential hundreds of high depth segregating markers could be available for use. It is even possible that knowing a priori which variants belong to which strain is not strictly necessary, if our goal is to identify one of the two genotypes goes extinct in each co-culture. If we have monocultures in the evolution plate as well, this analysis suggests that we might have enough information using variant calls in those samples without having to separately sequence them at higher coverage.
 
-![plot](manual_combination_vcf_gb_fasta.png)
