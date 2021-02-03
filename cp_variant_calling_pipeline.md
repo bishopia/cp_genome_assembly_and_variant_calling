@@ -168,7 +168,7 @@ freebayes -f $REF -L bamlist.txt > total_snps.vcf
 
 #### filter variants
 
-## using ddocent variant filter tutorial, remove variants when call rate is low, depth is low, qual is low, etc.
+using ddocent variant filter tutorial, remove variants when call rate is low, depth is low, qual is low, etc.
 
 ```
 vcftools --vcf total_snps.vcf --max-missing 0.5 --mac 3 --minQ 30 --recode --recode-INFO-all --out raw.g5mac3
