@@ -166,6 +166,26 @@ REF=lib19_cp_ref.fasta
 freebayes -f $REF -L bamlist.txt > total_snps.vcf
 ```
 
+#### filter variants
+
+## using ddocent variant filter tutorial, remove variants when call rate is low, depth is low, qual is low, etc.
+
+```
+vcftools --vcf total_snps.vcf --max-missing 0.5 --mac 3 --minQ 30 --recode --recode-INFO-all --out raw.g5mac3
+
+vcftools --vcf raw.g5mac3.recode.vcf --minDP 3 --recode --recode-INFO-all --out raw.g5mac3dp3
+
+#check for individuals with low call rates, remove if necessary
+vcftools --vcf raw.g5mac3dp3.recode.vcf --missing-indv
+cat out.imiss
+
+vcftools --vcf raw.g5mac3dp3.recode.vcf --max-missing 0.95 --maf 0.05 --recode --recode-INFO-all --out DP3g95maf05 --min-meanDP 20
+```
+
+#### export filtered variants, annotation and reference for IGV
+
+
+
 
 
 
