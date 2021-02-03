@@ -11,10 +11,10 @@ In this pipeline, I applied getOrganelle, Bandage and CHLOROBOX GeSeq to assembl
 <b>Figure 1.</b> Bandage browser screenshot the assembled plastome graph, which includes a large and small copy region, and the inverted repeat (IR) region that separates them. Note that the IR contig has twice the read depth.
 
 ## results
-Overall, our 128kb de novo plastid assembly contained an estimated 50 variant sites among the 40 isolates examined here. Given that we're working with plastid genomes, all variants are assumed to be in full LD. Initial viewing suggests that there are many unique haplotypes within each population. Nearly all polymorphic loci are found in coding sequence (not sure yet what the synonymous/nonsynonymous ratio is).
-
 ![plot](lib19_ref_OGDRAW.jpg)
 <b>Figure 2.</b> OGDRAW output of annotated reference chloroplast genome. 
+
+Overall, our 128kb de novo plastid assembly contained an estimated 50 variant sites among the 40 isolates examined here. Given that we're working with plastid genomes, all variants are assumed to be in full LD. Initial viewing suggests that there are many unique haplotypes within each population. Nearly all polymorphic loci are found in coding sequence (not sure yet what the synonymous/nonsynonymous ratio is).
 
 ![plot](manual_combination_vcf_gb_fasta.png)
 <b>Figure 3.</b> IGV browser screenshot of all 40 haplotypes and annotated coding sequence. Each grey/lightblue/darkblue marker indicates a SNP locus (grey=homozygous for ref allele, lightblue=homozygous for alt allele, and darkblue=heterozygous). Samples left of the black bars are from Narragansett Bay, samples left of the red bar are from South Africa.
