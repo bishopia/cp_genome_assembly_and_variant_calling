@@ -13,8 +13,11 @@ In this pipeline, I applied getOrganelle, Bandage and CHLOROBOX GeSeq to assembl
 ## results
 Overall, our 128kb de novo plastid assembly contained an estimated 50 variant sites among the 40 isolates examined here. Given that we're working with plastid genomes, all variants are assumed to be in full LD. Initial viewing suggests that there are many unique haplotypes within each population. Nearly all polymorphic loci are found in coding sequence (not sure yet what the synonymous/nonsynonymous ratio is).
 
+![plot](lib19_ref_OGDRAW.jpg)
+<b>Figure 2.</b> OGDRAW output of annotated reference chloroplast genome. 
+
 ![plot](manual_combination_vcf_gb_fasta.png)
-<b>Figure 2.</b> IGV browser screenshot of all 40 haplotypes and annotated coding sequence. Each grey/lightblue/darkblue marker indicates a SNP locus (grey=homozygous for ref allele, lightblue=homozygous for alt allele, and darkblue=heterozygous). Samples left of the black bars are from Narragansett Bay, samples left of the red bar are from South Africa.
+<b>Figure 3.</b> IGV browser screenshot of all 40 haplotypes and annotated coding sequence. Each grey/lightblue/darkblue marker indicates a SNP locus (grey=homozygous for ref allele, lightblue=homozygous for alt allele, and darkblue=heterozygous). Samples left of the black bars are from Narragansett Bay, samples left of the red bar are from South Africa.
 
 ## conclusions
 My initial conclusions are that there is plenty of genetic diversity upon which deconvolution presence/absence analyses can be based, even among single cell isolates collected from the same water sample. If lcWGS genotyping only gave us sufficient coverage at high-copy number regions like rRNA, plastid and mitochondiral genomes, these results suggest that potentially hundreds of high depth segregating markers could be available for use (they are segregating in this case because we assume no mutation during the experiment). It is even possible that knowing <i>a priori</i> which variants belong to which strain (by sequencing them separately at higher coverage) is not strictly necessary, if our primary goal is to identify when one of the two genotypes goes extinct in each co-culture. If we have monocultures in the evolution plate as well, it is even more likely that we do not need any separate founder strain sequencing at higher coverage.
