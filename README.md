@@ -6,7 +6,7 @@ It is currently unclear how much chloroplast genome sequence varies among and wi
 ## methods
 In this pipeline, I applied getOrganelle, Bandage and CHLOROBOX GeSeq to assembly, circularize and annotate a draft plastid genome, respectively. This circularized and annotated reference genome (isolate lib19 - South African origin) was then used to align quality-filtered short reads from 40 different <i>T. rotula</i> isolates and to call SNVs and short indels among individuals (applying bwa-mem, samtools, bamaggr, picardTools, and bayescan). Raw SNVs were filtered for depth, call rate and quality, and no individuals were removed for excess missing genotype data. Lastly, the filtered vcf file, reference fasta and annotation file were manually combined in IGV for easy viewing of the distribution of SNVs across and within two sampling localities (NB:11-14,41-56; SA:19,21-30,32-40).
 
-![plot](cp_graph.png)
+![plot](cp_graph.png | width=100)
 
 <b>Figure 1.</b> Bandage browser screenshot the assembled plastome graph, which includes a large and small copy region, and the inverted repeat (IR) region that separates them. Note that the IR contig has twice the read depth.
 
